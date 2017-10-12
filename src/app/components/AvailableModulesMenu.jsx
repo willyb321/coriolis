@@ -149,6 +149,7 @@ export default class AvailableModulesMenu extends TranslatedComponent {
         const existing = catmodules[moduleCategory] || [];
         catmodules[moduleCategory] = existing.concat(modules[g]);
       }
+
       for (let category in catmodules) {
         let categoryHeader = false;
         // Order through CATEGORIES if present
